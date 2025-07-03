@@ -2,10 +2,17 @@
 Ouvrir Anaconda.navigator et aller dans Envrionnements, en bas à gauche cliquer sur "Import",
 dans "Local drive, ouvrir le fichier R451.yml
 
-Dans enviornnement, verifier que l'environnement "r451_env" a bien été créer, et cliquer sur l'environnement.
+Dans enviornnement, verifier que l'environnement "r451_env" a bien été créer, et cliquer sur l'environnement sur la petite fleche verte, et ouvrir un terminal.
 
-retrouner sur Home, et installer jupyter notebook, puis lancer le.
+Dans le terminal de l'environnement "r451_env", executer les commandes ligne par ligne  :
 
-Ouvrir le jupyter notebook alignement_sur_r.ipynb 
+"""
+  R
+  install.packages("IRkernel")    #choisir un cran  , ex : 1
+  IRkernel::installspec(name = 'ir-r451', displayname = 'R 4.5.1')
+"""
+fermer le terminal, retrouner sur Home, et installer jupyter notebook, puis lancer le.
 
-lancer le jupyter notebook case par case, un dossier OUTPUT va etre créer avec les résultats, graphs, et plot à l'intérieur.
+Ouvrir le jupyter notebook : "alignement_sur_r.ipynb"
+
+lancer le jupyter notebook case par case, 
