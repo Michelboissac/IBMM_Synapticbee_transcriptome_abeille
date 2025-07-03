@@ -1,4 +1,0 @@
-LOC406124	Rdl
-Grd	Grd
-LCCH3	LCCH3
-Amel_8916	Amel_8916
