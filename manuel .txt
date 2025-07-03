@@ -1,18 +1,17 @@
+1) aller sur le site d'anaconda anavigator : https://www.anaconda.com/products/navigator  , creer un compte, et telecharger anaconda navigator.
 
-Ouvrir Anaconda.navigator et aller dans Envrionnements, en bas à gauche cliquer sur "Import",
-dans "Local drive, ouvrir le fichier R451.yml
+2) Ouvrir Anaconda.navigator et aller dans Envrionnements, en bas à gauche cliquer sur "Import", dans "Local drive, ouvrir le fichier R451.yml
 
-Dans enviornnement, verifier que l'environnement "r451_env" a bien été créer, et cliquer sur l'environnement sur la petite fleche verte, et ouvrir un terminal.
+3) Dans enviornnement, verifier que l'environnement "r451_env" a bien été créer, cliquer sur la petite fleche verte, et ouvrir un terminal.
 
-Dans le terminal de l'environnement "r451_env", executer les commandes ligne par ligne  :
+4) Dans le terminal de l'environnement "r451_env", executer les commandes ligne par ligne  :
 
 """
   R
   install.packages("IRkernel")    #choisir un cran  , ex : 1
   IRkernel::installspec(name = 'ir-r451', displayname = 'R 4.5.1')
 """
-fermer le terminal, retrouner sur Home, et installer jupyter notebook, puis lancer le.
 
-Ouvrir le jupyter notebook : "alignement_sur_r.ipynb"
+5) fermer le terminal, retrouner sur Home, et installer jupyter notebook, puis lancer le.
 
-lancer le jupyter notebook case par case, 
+6) Ouvrir le jupyter notebook : "alignement_sur_r.ipynb", la suite du manuel est directement explqué dans le notebook
